@@ -998,12 +998,12 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="154">rs1</text>
       <rect height="4" stroke="none" width="10" x="290" y="178"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="184">rs2</text>
-      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
       <circ-port height="10" pin="460,260" width="10" x="295" y="145"/>
-      <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
       <circ-port height="10" pin="460,200" width="10" x="295" y="85"/>
-      <circ-port height="10" pin="460,170" width="10" x="295" y="55"/>
       <circ-port height="8" pin="290,260" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="460,170" width="10" x="295" y="55"/>
+      <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
+      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
       <rect height="4" stroke="none" width="10" x="290" y="208"/>
       <circ-port height="10" pin="460,320" width="10" x="295" y="205"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="214">funct7</text>
@@ -1452,7 +1452,7 @@
       <a name="label" val="opcode"/>
     </comp>
     <comp lib="0" loc="(320,770)" name="Tunnel">
-      <a name="label" val="jalr_"/>
+      <a name="label" val="jalr0"/>
     </comp>
     <comp lib="3" loc="(290,420)" name="Comparator">
       <a name="width" val="7"/>
@@ -1471,7 +1471,7 @@
       <a name="width" val="7"/>
     </comp>
     <comp lib="0" loc="(320,720)" name="Tunnel">
-      <a name="label" val="jal_"/>
+      <a name="label" val="jal0"/>
     </comp>
     <comp lib="0" loc="(320,470)" name="Tunnel">
       <a name="label" val="I_type_instruction"/>
@@ -1510,7 +1510,7 @@
       <a name="label" val="opcode"/>
     </comp>
     <comp lib="0" loc="(320,670)" name="Tunnel">
-      <a name="label" val="lui_"/>
+      <a name="label" val="lui0"/>
     </comp>
     <comp lib="3" loc="(290,620)" name="Comparator">
       <a name="width" val="7"/>
@@ -1521,7 +1521,7 @@
       <a name="label" val="opcode"/>
     </comp>
     <comp lib="0" loc="(320,520)" name="Tunnel">
-      <a name="label" val="sw_"/>
+      <a name="label" val="sw0"/>
     </comp>
     <comp lib="0" loc="(220,380)" name="Constant">
       <a name="width" val="7"/>
@@ -1536,7 +1536,7 @@
       <a name="label" val="SB_type_instruction"/>
     </comp>
     <comp lib="0" loc="(320,620)" name="Tunnel">
-      <a name="label" val="auipc_"/>
+      <a name="label" val="auipc0"/>
     </comp>
     <comp lib="0" loc="(220,630)" name="Constant">
       <a name="width" val="7"/>
@@ -1724,22 +1724,22 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(790,600)" name="Tunnel">
-      <a name="label" val="mul_"/>
+      <a name="label" val="mul0"/>
     </comp>
     <comp lib="0" loc="(790,430)" name="Tunnel">
-      <a name="label" val="add_"/>
+      <a name="label" val="add0"/>
     </comp>
     <comp lib="0" loc="(790,770)" name="Tunnel">
-      <a name="label" val="sub_"/>
+      <a name="label" val="sub0"/>
     </comp>
     <comp lib="0" loc="(1130,600)" name="Tunnel">
-      <a name="label" val="mulh_"/>
+      <a name="label" val="mulh0"/>
     </comp>
     <comp lib="0" loc="(1140,430)" name="Tunnel">
-      <a name="label" val="sll_"/>
+      <a name="label" val="sll0"/>
     </comp>
     <comp lib="0" loc="(1130,770)" name="Tunnel">
-      <a name="label" val="mulhu_"/>
+      <a name="label" val="mulhu0"/>
     </comp>
     <comp lib="0" loc="(1300,730)" name="Constant">
       <a name="width" val="3"/>
@@ -1758,7 +1758,7 @@
       <a name="width" val="7"/>
     </comp>
     <comp lib="0" loc="(1490,430)" name="Tunnel">
-      <a name="label" val="xor_"/>
+      <a name="label" val="xor0"/>
     </comp>
     <comp lib="0" loc="(1300,560)" name="Constant">
       <a name="width" val="3"/>
@@ -1837,10 +1837,10 @@
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(1490,600)" name="Tunnel">
-      <a name="label" val="div_"/>
+      <a name="label" val="div0"/>
     </comp>
     <comp lib="0" loc="(1490,770)" name="Tunnel">
-      <a name="label" val="divu_"/>
+      <a name="label" val="divu0"/>
     </comp>
     <comp lib="0" loc="(1620,540)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1855,7 +1855,7 @@
       <a name="value" val="0x6"/>
     </comp>
     <comp lib="0" loc="(1840,430)" name="Tunnel">
-      <a name="label" val="srl_"/>
+      <a name="label" val="srl0"/>
     </comp>
     <comp lib="0" loc="(1620,590)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1863,7 +1863,7 @@
       <a name="label" val="funct7"/>
     </comp>
     <comp lib="0" loc="(1840,600)" name="Tunnel">
-      <a name="label" val="or_"/>
+      <a name="label" val="or0"/>
     </comp>
     <comp lib="3" loc="(1720,600)" name="Comparator">
       <a name="width" val="7"/>
@@ -1913,7 +1913,7 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1840,770)" name="Tunnel">
-      <a name="label" val="remu_"/>
+      <a name="label" val="remu0"/>
     </comp>
     <comp lib="3" loc="(1720,550)" name="Comparator">
       <a name="width" val="3"/>
@@ -1957,7 +1957,7 @@
       <a name="label" val="funct3"/>
     </comp>
     <comp lib="0" loc="(1490,940)" name="Tunnel">
-      <a name="label" val="xor_"/>
+      <a name="label" val="xor0"/>
     </comp>
     <comp lib="0" loc="(1620,880)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1990,10 +1990,11 @@
       <a name="label" val="funct3"/>
     </comp>
     <comp lib="0" loc="(1140,940)" name="Tunnel">
-      <a name="label" val="sll_"/>
+      <a name="label" val="sll0"/>
     </comp>
     <comp lib="0" loc="(1390,990)" name="Tunnel">
       <a name="facing" val="east"/>
+      <a name="label" val="Load_instruction"/>
     </comp>
     <comp lib="0" loc="(1300,950)" name="Constant">
       <a name="width" val="7"/>
@@ -2004,7 +2005,7 @@
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(790,940)" name="Tunnel">
-      <a name="label" val="and_"/>
+      <a name="label" val="and0"/>
     </comp>
     <comp lib="0" loc="(1620,930)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -2033,7 +2034,7 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1840,940)" name="Tunnel">
-      <a name="label" val="srl_"/>
+      <a name="label" val="srl0"/>
     </comp>
     <comp lib="0" loc="(690,990)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -2045,6 +2046,7 @@
     </comp>
     <comp lib="0" loc="(1040,990)" name="Tunnel">
       <a name="facing" val="east"/>
+      <a name="label" val="Load_instruction"/>
     </comp>
     <comp lib="0" loc="(1300,900)" name="Constant">
       <a name="width" val="3"/>
@@ -2052,6 +2054,7 @@
     </comp>
     <comp lib="0" loc="(1740,990)" name="Tunnel">
       <a name="facing" val="east"/>
+      <a name="label" val="Load_instruction"/>
     </comp>
     <comp lib="0" loc="(1650,900)" name="Constant">
       <a name="width" val="3"/>
