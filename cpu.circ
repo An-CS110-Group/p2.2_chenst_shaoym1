@@ -225,49 +225,57 @@
       <circ-port height="10" pin="1730,170" width="10" x="345" y="45"/>
       <circ-anchor facing="east" height="6" width="6" x="367" y="167"/>
     </appear>
+    <wire from="(1040,70)" to="(1790,70)"/>
+    <wire from="(1730,170)" to="(1730,180)"/>
+    <wire from="(230,380)" to="(340,380)"/>
+    <wire from="(140,360)" to="(140,380)"/>
+    <wire from="(1040,190)" to="(1080,190)"/>
+    <wire from="(1190,170)" to="(1190,180)"/>
+    <wire from="(1570,190)" to="(1620,190)"/>
+    <wire from="(1390,190)" to="(1440,190)"/>
+    <wire from="(1210,190)" to="(1260,190)"/>
+    <wire from="(250,130)" to="(250,160)"/>
+    <wire from="(1550,170)" to="(1550,180)"/>
+    <wire from="(1370,170)" to="(1370,180)"/>
+    <wire from="(140,380)" to="(170,380)"/>
+    <wire from="(190,140)" to="(190,240)"/>
+    <wire from="(380,310)" to="(590,310)"/>
+    <wire from="(150,400)" to="(170,400)"/>
+    <wire from="(230,460)" to="(250,460)"/>
+    <wire from="(230,500)" to="(250,500)"/>
+    <wire from="(190,70)" to="(190,120)"/>
+    <wire from="(1040,70)" to="(1040,190)"/>
+    <wire from="(180,130)" to="(250,130)"/>
     <wire from="(190,240)" to="(380,240)"/>
     <wire from="(1750,190)" to="(1790,190)"/>
-    <wire from="(1040,70)" to="(1790,70)"/>
     <wire from="(380,240)" to="(380,310)"/>
     <wire from="(230,390)" to="(230,460)"/>
     <wire from="(150,400)" to="(150,410)"/>
     <wire from="(230,500)" to="(230,510)"/>
     <wire from="(590,190)" to="(590,260)"/>
     <wire from="(570,270)" to="(610,270)"/>
-    <wire from="(230,380)" to="(340,380)"/>
+    <wire from="(1640,170)" to="(1640,180)"/>
     <wire from="(340,380)" to="(340,460)"/>
-    <wire from="(140,360)" to="(140,380)"/>
-    <wire from="(1040,190)" to="(1080,190)"/>
     <wire from="(1660,190)" to="(1710,190)"/>
     <wire from="(590,280)" to="(590,310)"/>
     <wire from="(230,360)" to="(230,380)"/>
     <wire from="(1480,190)" to="(1530,190)"/>
     <wire from="(590,70)" to="(590,150)"/>
-    <wire from="(1570,190)" to="(1620,190)"/>
-    <wire from="(1390,190)" to="(1440,190)"/>
-    <wire from="(1210,190)" to="(1260,190)"/>
+    <wire from="(1280,170)" to="(1280,180)"/>
+    <wire from="(1100,170)" to="(1100,180)"/>
+    <wire from="(1460,170)" to="(1460,180)"/>
     <wire from="(1300,190)" to="(1350,190)"/>
-    <wire from="(250,130)" to="(250,160)"/>
     <wire from="(1120,190)" to="(1170,190)"/>
-    <wire from="(140,380)" to="(170,380)"/>
     <wire from="(1790,70)" to="(1790,190)"/>
     <wire from="(140,360)" to="(230,360)"/>
-    <wire from="(190,140)" to="(190,240)"/>
     <wire from="(310,460)" to="(340,460)"/>
-    <wire from="(380,310)" to="(590,310)"/>
     <wire from="(340,460)" to="(360,460)"/>
-    <wire from="(150,400)" to="(170,400)"/>
     <wire from="(210,390)" to="(230,390)"/>
-    <wire from="(230,460)" to="(250,460)"/>
     <wire from="(210,510)" to="(230,510)"/>
-    <wire from="(230,500)" to="(250,500)"/>
-    <wire from="(190,70)" to="(190,120)"/>
     <wire from="(190,70)" to="(590,70)"/>
     <wire from="(140,410)" to="(150,410)"/>
     <wire from="(250,160)" to="(260,160)"/>
-    <wire from="(1040,70)" to="(1040,190)"/>
     <wire from="(520,170)" to="(600,170)"/>
-    <wire from="(180,130)" to="(250,130)"/>
     <comp lib="0" loc="(1460,170)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -395,6 +403,46 @@
     </comp>
     <comp lib="7" loc="(1210,430)" name="alu">
       <a name="label" val="Arithmetic_Logic_Unit"/>
+    </comp>
+    <comp lib="0" loc="(1730,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="a0"/>
+    </comp>
+    <comp lib="0" loc="(1550,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="s0"/>
+    </comp>
+    <comp lib="0" loc="(1190,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="sp"/>
+    </comp>
+    <comp lib="0" loc="(1280,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="t0"/>
+    </comp>
+    <comp lib="0" loc="(1460,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="t2"/>
+    </comp>
+    <comp lib="0" loc="(1370,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="t1"/>
+    </comp>
+    <comp lib="0" loc="(1100,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="ra"/>
+    </comp>
+    <comp lib="0" loc="(1640,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="32"/>
+      <a name="label" val="s1"/>
     </comp>
   </circuit>
   <circuit name="immgen">
