@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.7.1" version="1.0">
-  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<project source="2.14.6" version="1.0">
+  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -158,6 +158,7 @@
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
     <a name="simrand" val="0"/>
+    <a name="tickmain" val="half_period"/>
   </options>
   <mappings>
     <tool lib="6" map="Button2" name="Menu Tool"/>
@@ -196,6 +197,8 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="circuitnamedbox" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect fill="none" height="241" stroke="#000000" stroke-width="2" width="332" x="47" y="50"/>
       <text font-family="SansSerif" font-size="18" font-weight="bold" text-anchor="middle" x="204" y="162">CPU</text>
@@ -802,6 +805,8 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
     <wire from="(580,190)" to="(580,200)"/>
     <wire from="(580,310)" to="(580,320)"/>
     <wire from="(580,160)" to="(580,170)"/>
@@ -904,6 +909,8 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">OriginalInstruction</text>
@@ -917,12 +924,12 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="154">rs1</text>
       <rect height="4" stroke="none" width="10" x="290" y="178"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="184">rs2</text>
-      <circ-port height="10" pin="460,200" width="10" x="295" y="85"/>
       <circ-port height="10" pin="460,170" width="10" x="295" y="55"/>
-      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
       <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
-      <circ-port height="8" pin="290,260" width="8" x="46" y="56"/>
       <circ-port height="10" pin="460,260" width="10" x="295" y="145"/>
+      <circ-port height="8" pin="290,260" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
+      <circ-port height="10" pin="460,200" width="10" x="295" y="85"/>
       <rect height="4" stroke="none" width="10" x="290" y="208"/>
       <circ-port height="10" pin="460,320" width="10" x="295" y="205"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="214">funct7</text>
@@ -1034,6 +1041,8 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">funct7</text>
@@ -1065,20 +1074,20 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="185" y="184">BSel</text>
       <rect height="3" stroke="none" width="10" x="190" y="419"/>
       <circ-port height="10" pin="420,1840" width="10" x="195" y="415"/>
-      <circ-port height="10" pin="1680,1620" width="10" x="195" y="85"/>
       <circ-port height="8" pin="210,170" width="8" x="46" y="86"/>
-      <circ-port height="10" pin="230,1760" width="10" x="195" y="295"/>
       <circ-port height="10" pin="230,1800" width="10" x="195" y="145"/>
-      <circ-port height="8" pin="210,240" width="8" x="46" y="146"/>
       <circ-port height="8" pin="210,280" width="8" x="46" y="176"/>
-      <circ-port height="10" pin="420,1800" width="10" x="195" y="385"/>
       <circ-port height="10" pin="420,1720" width="10" x="195" y="325"/>
-      <circ-port height="8" pin="210,140" width="8" x="46" y="56"/>
       <circ-port height="10" pin="230,1720" width="10" x="195" y="115"/>
-      <circ-port height="10" pin="230,1840" width="10" x="195" y="175"/>
       <circ-port height="10" pin="1680,1570" width="10" x="195" y="55"/>
-      <circ-port height="8" pin="210,200" width="8" x="46" y="116"/>
       <circ-port height="10" pin="420,1760" width="10" x="195" y="355"/>
+      <circ-port height="8" pin="210,200" width="8" x="46" y="116"/>
+      <circ-port height="10" pin="230,1840" width="10" x="195" y="175"/>
+      <circ-port height="8" pin="210,140" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="420,1800" width="10" x="195" y="385"/>
+      <circ-port height="8" pin="210,240" width="8" x="46" y="146"/>
+      <circ-port height="10" pin="230,1760" width="10" x="195" y="295"/>
+      <circ-port height="10" pin="1680,1620" width="10" x="195" y="85"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="185" y="424">lbu</text>
       <rect height="4" stroke="none" width="10" x="190" y="208"/>
       <circ-port height="10" pin="230,1880" width="10" x="195" y="205"/>
@@ -3259,6 +3268,8 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">Instruction</text>
@@ -3268,8 +3279,8 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="195" y="64">Imm</text>
       <rect height="20" stroke="none" width="140" x="60" y="100"/>
       <circ-port height="10" pin="780,360" width="10" x="205" y="55"/>
-      <circ-port height="8" pin="430,130" width="8" x="46" y="56"/>
       <circ-port height="8" pin="430,200" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="430,130" width="8" x="46" y="56"/>
       <rect fill="none" height="69" stroke="#000000" stroke-width="2" width="139" x="60" y="50"/>
       <text fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="130" y="114">extractImm</text>
       <circ-anchor facing="east" height="6" width="6" x="207" y="57"/>
@@ -3365,7 +3376,7 @@
     </comp>
     <comp lib="0" loc="(550,670)" name="Constant">
       <a name="width" val="3"/>
-      <a name="value" val="0x3"/>
+      <a name="value" val="0x4"/>
     </comp>
     <comp lib="0" loc="(480,490)" name="Splitter">
       <a name="facing" val="west"/>
@@ -3422,7 +3433,7 @@
     </comp>
     <comp lib="0" loc="(610,770)" name="Constant">
       <a name="width" val="3"/>
-      <a name="value" val="0x4"/>
+      <a name="value" val="0x3"/>
     </comp>
     <comp lib="2" loc="(750,360)" name="Multiplexer">
       <a name="width" val="32"/>
