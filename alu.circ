@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.7.1" version="1.0">
-  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<project source="2.14.6" version="1.0">
+  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -119,6 +119,7 @@
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
     <a name="simrand" val="0"/>
+    <a name="tickmain" val="half_period"/>
   </options>
   <mappings>
     <tool lib="5" map="Button2" name="Menu Tool"/>
@@ -153,6 +154,26 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="false"/>
+    <a name="circuitvhdlpath" val=""/>
+    <appear>
+      <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="130" x="60" y="50"/>
+      <rect height="4" stroke="none" width="10" x="50" y="78"/>
+      <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="185" y="64">Result</text>
+      <rect height="4" stroke="none" width="10" x="190" y="58"/>
+      <rect height="4" stroke="none" width="10" x="50" y="58"/>
+      <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">ALUSel</text>
+      <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">A</text>
+      <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">B</text>
+      <rect height="4" stroke="none" width="10" x="50" y="98"/>
+      <rect height="20" stroke="none" width="130" x="60" y="110"/>
+      <text fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="125" y="124">alu</text>
+      <circ-port height="8" pin="200,160" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="200,250" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="200,310" width="8" x="46" y="96"/>
+      <circ-port height="10" pin="1180,240" width="10" x="195" y="55"/>
+      <circ-anchor facing="east" height="6" width="6" x="197" y="57"/>
+    </appear>
     <wire from="(930,1490)" to="(980,1490)"/>
     <wire from="(1010,1170)" to="(1060,1170)"/>
     <wire from="(1040,1600)" to="(1040,1620)"/>
