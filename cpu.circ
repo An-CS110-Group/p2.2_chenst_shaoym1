@@ -223,7 +223,7 @@
       <circ-port height="10" pin="260,160" width="10" x="375" y="165"/>
       <circ-port height="8" pin="520,170" width="8" x="46" y="116"/>
       <circ-port height="8" pin="570,270" width="8" x="86" y="286"/>
-      <circ-anchor facing="east" height="6" width="6" x="377" y="167"/>
+      <circ-anchor facing="east" height="6" width="6" x="367" y="167"/>
     </appear>
     <wire from="(850,1010)" to="(850,1020)"/>
     <wire from="(1730,170)" to="(1730,180)"/>
@@ -767,43 +767,6 @@
     <comp lib="0" loc="(1450,520)" name="Tunnel">
       <a name="label" val="MemRW"/>
     </comp>
-    <comp lib="0" loc="(610,270)" name="Tunnel">
-      <a name="label" val="clk"/>
-    </comp>
-    <comp lib="6" loc="(412,49)" name="Text">
-      <a name="text" val="Inputs/Outputs from run.circ. DO NOT MOVE THESE."/>
-      <a name="font" val="SansSerif bold 22"/>
-    </comp>
-    <comp lib="6" loc="(273,98)" name="Text">
-      <a name="text" val="Output"/>
-    </comp>
-    <comp lib="6" loc="(499,100)" name="Text">
-      <a name="text" val="Inputs"/>
-    </comp>
-    <comp lib="0" loc="(520,170)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="label" val="INSTRUCTION"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="0" loc="(180,130)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="32"/>
-      <a name="label" val="fetch_addr"/>
-    </comp>
-    <comp lib="0" loc="(570,270)" name="Pin">
-      <a name="label" val="CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(260,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="FETCH_ADDRESS"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="0" loc="(600,170)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="INSTRUCTION"/>
-    </comp>
     <comp lib="0" loc="(1540,1130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
@@ -832,6 +795,43 @@
       <a name="label" val="clk"/>
     </comp>
     <comp lib="9" loc="(1160,1110)" name="main"/>
+    <comp lib="6" loc="(412,49)" name="Text">
+      <a name="text" val="Inputs/Outputs from run.circ. DO NOT MOVE THESE."/>
+      <a name="font" val="SansSerif bold 22"/>
+    </comp>
+    <comp lib="0" loc="(600,170)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="INSTRUCTION"/>
+    </comp>
+    <comp lib="6" loc="(273,98)" name="Text">
+      <a name="text" val="Output"/>
+    </comp>
+    <comp lib="6" loc="(499,100)" name="Text">
+      <a name="text" val="Inputs"/>
+    </comp>
+    <comp lib="0" loc="(610,270)" name="Tunnel">
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(180,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="fetch_addr"/>
+    </comp>
+    <comp lib="0" loc="(520,170)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="label" val="INSTRUCTION"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(260,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="FETCH_ADDRESS"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="0" loc="(570,270)" name="Pin">
+      <a name="label" val="CLOCK"/>
+    </comp>
   </circuit>
   <circuit name="BranchCom">
     <a name="circuit" val="BranchCom"/>
@@ -957,12 +957,12 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="154">rs1</text>
       <rect height="4" stroke="none" width="10" x="290" y="178"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="184">rs2</text>
-      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
-      <circ-port height="10" pin="460,260" width="10" x="295" y="145"/>
-      <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
       <circ-port height="10" pin="460,200" width="10" x="295" y="85"/>
       <circ-port height="10" pin="460,170" width="10" x="295" y="55"/>
+      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
+      <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
       <circ-port height="8" pin="290,260" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="460,260" width="10" x="295" y="145"/>
       <rect height="4" stroke="none" width="10" x="290" y="208"/>
       <circ-port height="10" pin="460,320" width="10" x="295" y="205"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="214">funct7</text>
