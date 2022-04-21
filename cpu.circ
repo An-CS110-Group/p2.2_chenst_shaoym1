@@ -3754,4 +3754,284 @@
       <a name="value" val="0x4"/>
     </comp>
   </circuit>
+  <circuit name="mytest">
+    <a name="circuit" val="mytest"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(1270,1870)" to="(1270,1890)"/>
+    <wire from="(1030,1910)" to="(1030,1930)"/>
+    <wire from="(820,1920)" to="(820,1930)"/>
+    <wire from="(870,1860)" to="(870,1930)"/>
+    <wire from="(550,1750)" to="(550,1880)"/>
+    <wire from="(1150,1850)" to="(1150,1880)"/>
+    <wire from="(650,1840)" to="(650,1930)"/>
+    <wire from="(690,1840)" to="(690,1930)"/>
+    <wire from="(720,1630)" to="(760,1630)"/>
+    <wire from="(750,1480)" to="(790,1480)"/>
+    <wire from="(1180,1920)" to="(1180,1930)"/>
+    <wire from="(670,1770)" to="(670,1790)"/>
+    <wire from="(990,1920)" to="(1010,1920)"/>
+    <wire from="(1180,1920)" to="(1190,1920)"/>
+    <wire from="(1190,1850)" to="(1200,1850)"/>
+    <wire from="(1070,1830)" to="(1080,1830)"/>
+    <wire from="(690,1750)" to="(720,1750)"/>
+    <wire from="(570,1730)" to="(600,1730)"/>
+    <wire from="(930,1790)" to="(960,1790)"/>
+    <wire from="(730,1780)" to="(730,1880)"/>
+    <wire from="(810,1770)" to="(840,1770)"/>
+    <wire from="(1170,1830)" to="(1200,1830)"/>
+    <wire from="(610,1760)" to="(610,1880)"/>
+    <wire from="(1050,1810)" to="(1080,1810)"/>
+    <wire from="(950,1810)" to="(960,1810)"/>
+    <wire from="(1110,1890)" to="(1110,1930)"/>
+    <wire from="(1070,1890)" to="(1070,1930)"/>
+    <wire from="(640,1640)" to="(720,1640)"/>
+    <wire from="(830,1790)" to="(840,1790)"/>
+    <wire from="(820,1920)" to="(830,1920)"/>
+    <wire from="(710,1770)" to="(720,1770)"/>
+    <wire from="(590,1750)" to="(600,1750)"/>
+    <wire from="(720,1630)" to="(720,1640)"/>
+    <wire from="(990,1920)" to="(990,1930)"/>
+    <wire from="(850,1800)" to="(850,1810)"/>
+    <wire from="(910,1810)" to="(910,1880)"/>
+    <wire from="(1050,1880)" to="(1050,1910)"/>
+    <wire from="(790,1790)" to="(790,1880)"/>
+    <wire from="(790,1480)" to="(790,1500)"/>
+    <wire from="(1210,1860)" to="(1210,1870)"/>
+    <wire from="(1230,1920)" to="(1230,1930)"/>
+    <wire from="(1130,1840)" to="(1140,1840)"/>
+    <wire from="(1250,1860)" to="(1260,1860)"/>
+    <wire from="(1010,1820)" to="(1020,1820)"/>
+    <wire from="(630,1740)" to="(660,1740)"/>
+    <wire from="(870,1780)" to="(900,1780)"/>
+    <wire from="(990,1800)" to="(1020,1800)"/>
+    <wire from="(750,1760)" to="(780,1760)"/>
+    <wire from="(830,1860)" to="(830,1920)"/>
+    <wire from="(1230,1840)" to="(1260,1840)"/>
+    <wire from="(1110,1820)" to="(1140,1820)"/>
+    <wire from="(970,1820)" to="(970,1880)"/>
+    <wire from="(1290,1850)" to="(1310,1850)"/>
+    <wire from="(1010,1880)" to="(1010,1920)"/>
+    <wire from="(890,1800)" to="(900,1800)"/>
+    <wire from="(770,1780)" to="(780,1780)"/>
+    <wire from="(1030,1910)" to="(1050,1910)"/>
+    <wire from="(650,1760)" to="(660,1760)"/>
+    <wire from="(530,1740)" to="(540,1740)"/>
+    <wire from="(530,1720)" to="(540,1720)"/>
+    <comp lib="2" loc="(990,1800)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(870,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="xori0"/>
+    </comp>
+    <comp lib="0" loc="(650,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="sll0"/>
+    </comp>
+    <comp lib="2" loc="(570,1730)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(910,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="div0"/>
+    </comp>
+    <comp lib="0" loc="(1130,1840)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xb"/>
+    </comp>
+    <comp lib="0" loc="(990,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="srl0"/>
+    </comp>
+    <comp lib="0" loc="(640,1640)" name="Pin">
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(530,1720)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="2" loc="(1290,1850)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="2" loc="(870,1780)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(710,1770)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x4"/>
+    </comp>
+    <comp lib="0" loc="(760,1630)" name="Tunnel">
+      <a name="label" val="mul0"/>
+    </comp>
+    <comp lib="6" loc="(1091,1748)" name="Text">
+      <a name="text" val="0 - add/addi/lui/auipc/branch/jal/jalr"/>
+    </comp>
+    <comp lib="0" loc="(1310,1850)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="ALUSel"/>
+    </comp>
+    <comp lib="0" loc="(610,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="sub0"/>
+    </comp>
+    <comp lib="0" loc="(730,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="mulh0"/>
+    </comp>
+    <comp lib="0" loc="(550,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="mul0"/>
+    </comp>
+    <comp lib="2" loc="(1050,1810)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1270,1890)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="slti0"/>
+    </comp>
+    <comp lib="0" loc="(690,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="slli0"/>
+    </comp>
+    <comp lib="0" loc="(1230,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="andi0"/>
+    </comp>
+    <comp lib="0" loc="(1190,1850)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xc"/>
+    </comp>
+    <comp lib="0" loc="(590,1750)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="2" loc="(930,1790)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="2" loc="(1110,1820)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(890,1800)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x7"/>
+    </comp>
+    <comp lib="0" loc="(830,1790)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x6"/>
+    </comp>
+    <comp lib="2" loc="(1230,1840)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(820,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="xor0"/>
+    </comp>
+    <comp lib="0" loc="(1250,1860)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xd"/>
+    </comp>
+    <comp lib="0" loc="(1030,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="srli0"/>
+    </comp>
+    <comp lib="0" loc="(1070,1830)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xa"/>
+    </comp>
+    <comp lib="1" loc="(1090,1840)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(770,1780)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x5"/>
+    </comp>
+    <comp lib="0" loc="(1180,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="and0"/>
+    </comp>
+    <comp lib="1" loc="(1210,1870)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1070,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="or0"/>
+    </comp>
+    <comp lib="1" loc="(1030,1830)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(530,1740)" name="Constant">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(790,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="mulhu0"/>
+    </comp>
+    <comp lib="2" loc="(1170,1830)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(950,1810)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x8"/>
+    </comp>
+    <comp lib="2" loc="(810,1770)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(650,1760)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x3"/>
+    </comp>
+    <comp lib="1" loc="(850,1810)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(970,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="divu0"/>
+    </comp>
+    <comp lib="1" loc="(670,1790)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="2" loc="(690,1750)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1150,1880)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="remu0"/>
+    </comp>
+    <comp lib="2" loc="(750,1760)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+    <comp lib="0" loc="(790,1500)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="sub0"/>
+    </comp>
+    <comp lib="0" loc="(1110,1930)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="ori0"/>
+    </comp>
+    <comp lib="0" loc="(750,1480)" name="Pin">
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1010,1820)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x9"/>
+    </comp>
+    <comp lib="2" loc="(630,1740)" name="Multiplexer">
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+    </comp>
+  </circuit>
 </project>
