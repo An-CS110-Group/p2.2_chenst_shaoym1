@@ -231,8 +231,8 @@
     <wire from="(1730,170)" to="(1730,180)"/>
     <wire from="(1430,820)" to="(1430,890)"/>
     <wire from="(1190,900)" to="(1190,970)"/>
-    <wire from="(740,980)" to="(740,1010)"/>
     <wire from="(1640,1100)" to="(1640,1240)"/>
+    <wire from="(740,980)" to="(740,1010)"/>
     <wire from="(740,980)" to="(840,980)"/>
     <wire from="(1230,910)" to="(1230,920)"/>
     <wire from="(1390,190)" to="(1440,190)"/>
@@ -245,6 +245,7 @@
     <wire from="(270,1240)" to="(1640,1240)"/>
     <wire from="(1280,400)" to="(1290,400)"/>
     <wire from="(1260,1140)" to="(1270,1140)"/>
+    <wire from="(640,590)" to="(660,590)"/>
     <wire from="(640,1030)" to="(660,1030)"/>
     <wire from="(190,140)" to="(190,240)"/>
     <wire from="(590,930)" to="(620,930)"/>
@@ -256,12 +257,13 @@
     <wire from="(1590,820)" to="(1610,820)"/>
     <wire from="(1310,930)" to="(1340,930)"/>
     <wire from="(1040,70)" to="(1040,190)"/>
-    <wire from="(920,680)" to="(930,680)"/>
     <wire from="(180,130)" to="(250,130)"/>
+    <wire from="(920,680)" to="(930,680)"/>
     <wire from="(970,1130)" to="(980,1130)"/>
     <wire from="(1560,820)" to="(1590,820)"/>
     <wire from="(830,910)" to="(840,910)"/>
     <wire from="(570,610)" to="(580,610)"/>
+    <wire from="(610,970)" to="(620,970)"/>
     <wire from="(1160,1080)" to="(1270,1080)"/>
     <wire from="(740,950)" to="(740,960)"/>
     <wire from="(190,240)" to="(380,240)"/>
@@ -282,6 +284,7 @@
     <wire from="(1440,610)" to="(1450,610)"/>
     <wire from="(1440,730)" to="(1450,730)"/>
     <wire from="(1570,970)" to="(1570,1090)"/>
+    <wire from="(660,550)" to="(660,590)"/>
     <wire from="(1790,70)" to="(1790,190)"/>
     <wire from="(1440,370)" to="(1450,370)"/>
     <wire from="(990,910)" to="(1010,910)"/>
@@ -289,17 +292,17 @@
     <wire from="(320,580)" to="(410,580)"/>
     <wire from="(1280,370)" to="(1290,370)"/>
     <wire from="(1260,1110)" to="(1270,1110)"/>
-    <wire from="(640,590)" to="(670,590)"/>
     <wire from="(870,990)" to="(1030,990)"/>
     <wire from="(1190,900)" to="(1220,900)"/>
     <wire from="(190,70)" to="(590,70)"/>
-    <wire from="(160,930)" to="(170,930)"/>
     <wire from="(160,890)" to="(170,890)"/>
+    <wire from="(160,930)" to="(170,930)"/>
     <wire from="(160,970)" to="(170,970)"/>
     <wire from="(1620,1100)" to="(1640,1100)"/>
-    <wire from="(920,650)" to="(930,650)"/>
     <wire from="(950,920)" to="(960,920)"/>
+    <wire from="(920,650)" to="(930,650)"/>
     <wire from="(1430,1080)" to="(1580,1080)"/>
+    <wire from="(660,590)" to="(670,590)"/>
     <wire from="(500,950)" to="(510,950)"/>
     <wire from="(620,950)" to="(630,950)"/>
     <wire from="(1040,70)" to="(1790,70)"/>
@@ -308,11 +311,11 @@
     <wire from="(400,820)" to="(400,830)"/>
     <wire from="(440,820)" to="(440,830)"/>
     <wire from="(480,820)" to="(480,830)"/>
-    <wire from="(240,820)" to="(240,830)"/>
     <wire from="(280,820)" to="(280,830)"/>
+    <wire from="(240,820)" to="(240,830)"/>
     <wire from="(360,820)" to="(360,830)"/>
-    <wire from="(320,820)" to="(320,830)"/>
     <wire from="(340,600)" to="(340,610)"/>
+    <wire from="(320,820)" to="(320,830)"/>
     <wire from="(1110,820)" to="(1430,820)"/>
     <wire from="(820,1000)" to="(820,1030)"/>
     <wire from="(1190,970)" to="(1570,970)"/>
@@ -343,8 +346,8 @@
     <wire from="(440,590)" to="(580,590)"/>
     <wire from="(960,1010)" to="(1030,1010)"/>
     <wire from="(1730,860)" to="(1750,860)"/>
-    <wire from="(920,620)" to="(930,620)"/>
     <wire from="(920,740)" to="(930,740)"/>
+    <wire from="(920,620)" to="(930,620)"/>
     <wire from="(970,1070)" to="(980,1070)"/>
     <wire from="(740,960)" to="(750,960)"/>
     <wire from="(1750,190)" to="(1790,190)"/>
@@ -488,9 +491,6 @@
       <a name="width" val="32"/>
       <a name="label" val="t2"/>
     </comp>
-    <comp lib="4" loc="(580,560)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
     <comp loc="(740,930)" name="BranchCom"/>
     <comp lib="0" loc="(240,820)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -556,9 +556,8 @@
     <comp lib="0" loc="(640,1030)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
-      <a name="label" val="INSTRUCTION"/>
+      <a name="label" val="INS"/>
     </comp>
-    <comp lib="8" loc="(490,920)" name="main"/>
     <comp lib="0" loc="(930,710)" name="Tunnel">
       <a name="width" val="5"/>
       <a name="label" val="rs2"/>
@@ -583,10 +582,6 @@
     </comp>
     <comp lib="7" loc="(1180,970)" name="alu"/>
     <comp lib="0" loc="(1330,910)" name="Constant"/>
-    <comp lib="0" loc="(620,970)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="BrUn"/>
-    </comp>
     <comp lib="0" loc="(930,620)" name="Tunnel">
       <a name="width" val="5"/>
       <a name="label" val="rd"/>
@@ -668,7 +663,6 @@
       <a name="width" val="7"/>
       <a name="label" val="funct7"/>
     </comp>
-    <comp loc="(920,590)" name="split_instruction"/>
     <comp lib="0" loc="(1230,920)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="PCSel"/>
@@ -873,6 +867,20 @@
       <a name="width" val="32"/>
       <a name="label" val="PC_4"/>
     </comp>
+    <comp lib="4" loc="(580,560)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(610,970)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrUn"/>
+    </comp>
+    <comp loc="(920,590)" name="split_instruction"/>
+    <comp lib="8" loc="(490,920)" name="main"/>
+    <comp lib="0" loc="(660,550)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="32"/>
+      <a name="label" val="INS"/>
+    </comp>
   </circuit>
   <circuit name="BranchCom">
     <a name="circuit" val="BranchCom"/>
@@ -998,12 +1006,12 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="154">rs1</text>
       <rect height="4" stroke="none" width="10" x="290" y="178"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="184">rs2</text>
-      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
       <circ-port height="10" pin="460,260" width="10" x="295" y="145"/>
-      <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
       <circ-port height="10" pin="460,200" width="10" x="295" y="85"/>
-      <circ-port height="10" pin="460,170" width="10" x="295" y="55"/>
       <circ-port height="8" pin="290,260" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="460,170" width="10" x="295" y="55"/>
+      <circ-port height="10" pin="460,230" width="10" x="295" y="115"/>
+      <circ-port height="10" pin="460,290" width="10" x="295" y="175"/>
       <rect height="4" stroke="none" width="10" x="290" y="208"/>
       <circ-port height="10" pin="460,320" width="10" x="295" y="205"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="285" y="214">funct7</text>
@@ -3354,8 +3362,8 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="195" y="64">Imm</text>
       <rect height="20" stroke="none" width="140" x="60" y="100"/>
       <circ-port height="10" pin="780,360" width="10" x="205" y="55"/>
-      <circ-port height="8" pin="430,130" width="8" x="46" y="56"/>
       <circ-port height="8" pin="430,200" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="430,130" width="8" x="46" y="56"/>
       <rect fill="none" height="68" stroke="#000000" stroke-width="2" width="140" x="60" y="50"/>
       <text fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="131" y="114">GenerateImm</text>
       <circ-anchor facing="east" height="6" width="6" x="207" y="57"/>
@@ -3843,10 +3851,10 @@
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="184">lhu</text>
       <rect height="4" stroke="none" width="10" x="200" y="58"/>
       <circ-port height="8" pin="550,350" width="8" x="46" y="176"/>
-      <circ-port height="8" pin="450,350" width="8" x="46" y="116"/>
       <circ-port height="8" pin="200,230" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="400,350" width="8" x="46" y="86"/>
       <circ-port height="8" pin="500,350" width="8" x="46" y="146"/>
+      <circ-port height="8" pin="400,350" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="450,350" width="8" x="46" y="116"/>
       <circ-port height="10" pin="600,250" width="10" x="205" y="55"/>
       <text fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="195" y="64">extended</text>
       <rect height="20" stroke="none" width="140" x="60" y="190"/>
